@@ -26,7 +26,8 @@ We are following a structured **20-task roadmap**. Below is the current progress
 - [x] **Task 5** – Identification of VOC threshold in German TA Luft (§11)  
 - [x] **Task 6** – GitHub repo setup (current task)  
 - [x] **Task 7** - Add German regulatory context to README
-- [ ] **Task 8–20** – Model development, training, evaluation, demo interface, and deployment  
+- [x] **Task 8** - Implement Data Loader with batch_size=250 and verify VRAM usage
+- [ ] **Task 9–20** – Model development, training, evaluation, demo interface, and deployment  
 
 ---
 
