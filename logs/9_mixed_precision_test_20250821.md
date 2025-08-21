@@ -6,8 +6,7 @@ The purpose of this task is to enable **mixed precision training (FP16)** using 
 ---
 
 ## Steps Performed
-1. Loaded the dataset (`qm9_voc_compliant.pkl`) for baseline.
-2. Since the dataset does not contain `x` features, we simulated random tensors as input features.
+1. We simulated random tensors as input features.
 3. Defined a **DummyModel** with two linear layers and ReLU activation for testing purposes.
 4. Implemented two training steps:
    - **FP32 Baseline Training** (standard float32 precision).
