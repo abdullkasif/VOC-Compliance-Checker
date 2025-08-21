@@ -4,6 +4,17 @@ A research-oriented project to analyze the **QM9 molecular dataset** for VOC (Vo
 The system processes molecular data, extracts physicochemical properties, and prepares groundwork for predicting vapor pressure thresholds relevant to VOC classification.  
 
 ---
+## Why VOC Compliance Matters for BASF and Siemens
+
+In Germany, the *Technische Anleitung zur Reinhaltung der Luft* (TA Luft, §11) defines strict thresholds for Volatile Organic Compounds (VOCs), as these compounds contribute significantly to air pollution, smog formation, and public health risks. VOC emissions are tightly regulated to support Germany’s climate and environmental protection goals.
+
+For **BASF**, one of the world’s largest chemical producers, compliance ensures that chemical manufacturing processes meet strict environmental standards while avoiding regulatory fines and reputational risks. For **Siemens**, which develops industrial and energy solutions, VOC compliance is critical in ensuring that equipment, solvents, and industrial processes remain within legal emission limits, supporting sustainable operations across industries.
+
+This project directly supports the **VOC compliance use case**, by predicting vapor pressures of molecules and flagging non-compliant compounds. The implemented pipeline reflects real-world needs of German chemical and industrial companies in meeting TA Luft requirements.
+
+➡️ See [VOC_threshold.md](./VOC_threshold.md) for the exact vapor pressure compliance threshold.
+
+---
 
 ## Task Progress  
 We are following a structured **20-task roadmap**. Below is the current progress:  
@@ -13,8 +24,9 @@ We are following a structured **20-task roadmap**. Below is the current progress
 - [x] **Task 3** – VRAM footprint analysis  
 - [x] **Task 4** – Data inspection & target properties documentation  
 - [x] **Task 5** – Identification of VOC threshold in German TA Luft (§11)  
-- [ ] **Task 6** – GitHub repo setup (current task)  
-- [ ] **Task 7–20** – Model development, training, evaluation, demo interface, and deployment  
+- [x] **Task 6** – GitHub repo setup (current task)  
+- [x] **Task 7** - Add German regulatory context to README
+- [ ] **Task 8–20** – Model development, training, evaluation, demo interface, and deployment  
 
 ---
 
@@ -75,4 +87,6 @@ This document outlines the **exact vapor pressure thresholds** defined in German
 
 ---
 
+
+➡️ See [VOC_threshold.md](./VOC_threshold.md) for the exact vapor pressure compliance threshold.
 ✨ This repository is part of a step-by-step learning and implementation journey toward building an AI-powered VOC compliance checker.  
