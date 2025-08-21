@@ -27,7 +27,8 @@ We are following a structured **20-task roadmap**. Below is the current progress
 - [x] **Task 6** – GitHub repo setup (current task)  
 - [x] **Task 7** - Add German regulatory context to README
 - [x] **Task 8** - Implement Data Loader with batch_size=250 and verify VRAM usage
-- [ ] **Task 9–20** – Model development, training, evaluation, demo interface, and deployment  
+- [x] **Task 9** - enable **mixed precision training (FP16)** using **PyTorch AMP** and compare GPU VRAM usage with standard **FP32 training**
+- [ ] **Task 10–20** – Model development, training, evaluation, demo interface, and deployment  
 
 ---
 
@@ -72,7 +73,7 @@ VOC-Compliance-Checker/
 ├── logs/              # Task-wise documentation
 |   └──proof/          # Proof images for completed tasks     
 ├── demo/              # Placeholder for demos
-├── VOC_threshold.md   # VVOC Vapor Pressure Threshold in German Regulations
+├── VOC_threshold.md   # VOC Vapor Pressure Threshold in German Regulations
 ├── README.md          # Project overview (this file)
 └── requirements.txt   # Python dependencies
 ```
